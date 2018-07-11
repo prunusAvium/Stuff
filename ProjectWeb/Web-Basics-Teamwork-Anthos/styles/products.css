@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.recent-products {
+    background-color: hotpink;
+}
+.top-products {
+    background-color: gold;
+}
+.products {
+    background-color: deepskyblue;
+}

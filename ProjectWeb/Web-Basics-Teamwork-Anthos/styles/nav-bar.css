@@ -1,0 +1,93 @@
+/*@import url("https://fonts.googleapis.com/css?family=Lato:300,400,800,900");*/
+/*@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300');*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee url('http://subtlepatterns.com/patterns/extra_clean_paper.png');
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#main-title {
+    font-family: 'Lato', sans-serif;
+    color: #234465;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-shadow: #999 5px 5px 0;
+    cursor: default;
+}
+
+.nav-primary {
+    list-style: none;
+    margin-top: 10px;
+    padding: 25px 10px;
+    border-top: 4px dashed #723733;
+    border-bottom: 4px dashed #723733;
+    position: relative;
+    text-align: center;
+}
+
+.nav-primary .nav-item {
+    display: inline-block;
+    width: 173px;
+    margin: 0 15px;
+    position: relative;
+    /*Angles the items to the left and sets the scale*/
+    transform: scale(1) skewy(3deg);
+    /*Text pops up and smooths lines*/
+    backface-visibility: hidden;
+    transition: 200ms all;
+}
+.nav-primary .nav-item a {
+    text-transform: uppercase;
+    font-family: 'Lato', cursive;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    color: #333333;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #FFF,
+    2px 2px 0 #999;
+
+    /*Box pattern*/
+    background-color: #FFF;
+    background-image: repeating-linear-gradient(45deg, transparent,
+    transparent 1px, rgba(0,0,0,.15) 1.5px,
+    rgba(0,0,0,.15) 3px);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.4),
+    5px 5px 20px 2px rgba(0,0,0,.4),
+    0 0 0 2px #FFF inset;
+}
+
+.nav-primary .nav-item:hover {
+    /*Angles the items to the right and scale them*/
+    transform: scale(1.1) skewy(-3deg);
+}
+
+.nav-primary a:hover {
+    color: #ffa000;
+}
+
+.nav-primary a:active {
+    color: #8C9825;
+    box-shadow: 0 0 0 1px #8C9825,
+    0 0 20px 2px #8C9825,
+    0 0 0 2px #FFF inset;
+}

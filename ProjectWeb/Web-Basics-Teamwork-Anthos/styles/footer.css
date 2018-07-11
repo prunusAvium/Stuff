@@ -1,0 +1,85 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.main-footer {
+    margin-top: 30px;
+    text-align: center;
+    border-top: 4px dashed #723733;
+    border-bottom: 4px solid #723733;
+}
+
+.main-footer, .info-socials-container {
+    width: 100%;
+}
+
+.info-socials-container {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.info-socials-container > h2 {
+    font-family: 'Lato', cursive;
+    color: #333333;
+    width: 33%;
+    margin: 0 auto;
+    line-height: 32px;
+    border-right: 4px solid #8C9825;
+    border-left: 4px solid #8C9825;
+    cursor: default;
+}
+
+.info-socials-container > h2 span:hover {
+    color: #ffa000;
+}
+
+.socials {
+    float: right;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: right;
+}
+
+.socials li {
+    margin-right: 25px;
+}
+
+.socials a {
+    display: block;
+    width: 32px;
+    color: #090821;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #FFF;
+    background-image: repeating-linear-gradient(45deg, transparent,
+    transparent 1px, rgba(0,0,0,.15) 1.5px,
+    rgba(0,0,0,.15) 3px);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.4),
+                0 0 20px 2px rgba(0,0,0,.4),
+                0 0 0 2px #FFF inset;
+    transform: scale(1);
+    transition: 0.15s all ease;
+}
+
+.socials li a:hover {
+    transform: scale(1.2);
+}
+
+.socials li a:active {
+    box-shadow: 0 0 0 1px #8C9825,
+    0 0 20px 2px #8C9825,
+    0 0 0 2px #FFF inset;
+}
+
+.socials li:first-child a:hover {
+    color: #3b5998;
+}
+.socials li:nth-child(2) a:hover {
+    color: #00aced;
+}
+.socials li:nth-child(3) a:hover {
+    color: #bc2a8d;
+}
+.socials li:last-child a:hover {
+    color: #bb0000;
+}

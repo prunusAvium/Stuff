@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Softuni Shop</title>
+    <link rel="stylesheet" href="styles/nav-bar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+</head>
+<body>
+<header class="main-header">
+    <h1 id="main-title">Софтуни Шопъ</h1>
+    <nav class="main-nav-bar">
+        <ul class="nav-primary">
+            <li class="nav-item home"><a href="index.html">Мейнъ</a></li>
+            <li class="nav-item"><a href="products.html">Шопъ</a></li>
+            <!--<li class="nav-item"><a href="blog.html">Блогъ</a></li>-->
+            <li class="nav-item"><a href="#">Контактъ</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section class="contact-address">
+            <h2>Открийте ни <em>(нидейте)</em></h2>
+            <ul class="info">
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    <p>София, кв. Изгрев, ул. "Тинтява" 15&ndash;17, етаж първи срещу вратата на излизане от гей(м) бара.</p>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o"></i>
+                    <p>Понеделни &ndash; Петък Затворено; Неделя 18:00&ndash;18:05</p>
+                </li>
+                <li>
+                    <i class="fa fa-phone"></i>
+                    <p>123 123 1234 <em>(5 лв. на сек.)</em></p>
+                </li>
+            </ul>
+        </section>
+        <section class="google-map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1Q2iXh00XiOUTl-X2W502S1hohj8"
+                    width="640" height="480">
+                <a href="https://www.google.com/maps/place/Software+University/@42.666775,23.352277,16z/data=!4m5!3m4!1s0x0:0xdf53fcbcd8e758d7!8m2!3d42.666775!4d23.352277?hl=en" target="_blank" >
+                    <img id="map" src="https://external.fsof3-1.fna.fbcdn.net/static_map.php?v=27&osm_provider=3&size=400x400&zoom=17&markers=icon%3Aimages%2Fplaces%2Fmap%2Fbright-pink-pin.png%7C42.666775%2C23.352277&language=en_US" >
+                </a>
+            </iframe>
+
+        </section>
+        <section class="contact-form">
+            <form action="https://formspree.io/alexandarkos@gmail.com" method="POST">
+                <h3>Пишете нъ:</h3>
+                <br>
+                <div class="contact-info">
+                    <label>
+                        <span>Име</span>
+                        <input type="text" name="name" placeholder="Име">
+                    </label>
+                    <label><span>E-mail</span>
+                        <input type="email" name="_replyto" placeholder="E-mail"></label>
+                </div>
+                <label>
+
+                    <textarea name="message" placeholder="Аре драснъ нещо де..."></textarea></label>
+
+                <input class="hvr-forward" type="submit" value="Sendъ">
+                <input type="hidden" name="_next" value="https://silvave.github.io/Web-Basics-Teamwork-Anthos/contacts.html" />
+            </form>
+        </section>
+        <!--<section class="contact-form">-->
+            <!--<form>-->
+                <!--<h1>Contact Form<span>Please fill all the texts in the fields.</span></h1>-->
+                <!--<label>-->
+                    <!--<span>Your Name:</span>-->
+                    <!--<input id="name" type="text" name="name" placeholder="Your Full Name" required/>-->
+                <!--</label>-->
+                <!--<label>-->
+                    <!--<span>Your Email:</span>-->
+                    <!--<input id="email" type="email" name="email" placeholder="Valid Email Address" required/>-->
+                <!--</label>-->
+                <!--<label>-->
+                    <!--<span>Message :</span>-->
+                    <!--<textarea id="message" name="message"-->
+                              <!--placeholder="Your Message to Us"></textarea>-->
+                <!--</label>-->
+                <!--<label>-->
+                    <!--<span>Subject:</span>-->
+                    <!--<select name="selection">-->
+                        <!--<option value="Job Inquiry">Job Inquiry</option>-->
+                        <!--<option value="General Question">General Question</option>-->
+                    <!--</select>-->
+                <!--</label>-->
+                <!--<input type="submit" class="button" value="Send" />-->
+            <!--</form>-->
+        <!--</section>-->
+    </main>
+<footer class="main-footer">
+    <section class="info-socials-container">
+        <ul class="socials">
+            <li>
+                <a href="https://www.facebook.com/SoftwareUniversity/" target="_blank">
+                    <i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/softunibg" target="_blank">
+                    <i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/softuni.bg/" target="_blank">
+                    <i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/user/softwareuniversity" target="_blank">
+                    <i class="fa fa-youtube-play"></i></a>
+            </li>
+        </ul>
+        <h2>Design by team <span>Anthos</span> &copy; 2017</h2>
+    </section>
+</footer>
+</body>
+</html>

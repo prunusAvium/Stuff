@@ -1,0 +1,167 @@
+    @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+body {
+    font-size: 14px;
+    /*background-color: #E7E8E7;*/
+    font-family: 'Lato', sans-serif;
+}
+
+.slider {
+    background: url("../img/banner.jpg");
+    text-align: center;
+    background-size: cover;
+    min-height: 500px; /*za da izliza header-a normalno*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+section.slider h1 {
+    color: #234456;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding-top: 150px;
+}
+
+section.slider h2 {
+    color: #ffa000;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+section.slider h3 {
+    text-transform: uppercase;
+    color: #234456;
+    font-size: 1.5em;
+    text-shadow: 0 0 15px white;
+}
+
+section.slider a.slider-button {
+    display: inline-block;
+    background: #234456;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #ffa000;
+    border-radius: 10px;
+}
+
+section.slider a.slider-button:hover, section.slider .slider-button:hover .fa-chevron-right {
+    background: #ffa000;
+    color: #234456;
+}
+
+section.slider .slider-button .fa-chevron-right {
+    color: #ffa000;
+}
+
+section.about {
+    background: #ffffff;
+    text-align: center; /*centrira se ne samo texta - no i drugoto*/
+    width: 100%;
+    margin: 0 auto; /*za da se pokazva vinagi na centara*/
+}
+
+section h1 {
+    padding-top: 30px;
+    font-size: 3em;
+    color: #234456;
+}
+
+.about article {
+    width: 100%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.about article p {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+}
+
+.about .image {
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    line-height: 30px;
+}
+
+section.testimonials {
+    background: #ffa000;
+    text-align: center; /*centrira se ne samo texta - no i drugoto*/
+    width: 100%;
+}
+
+.testimonials article {
+    width: 350px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top; /*za da se podredyat po vertikalata articles*/
+}
+
+.testimonials h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow: 1px 3px 3px #234456;
+}
+
+.testimonials .icon {
+    width: 45px;
+    height: 45px;
+    line-height: 45px; /*za da se centrira vertikalno*/
+    font-size: 2em;
+    background: #234456;
+    color: white;
+    border-radius: 50%;
+    float: left;
+    margin: 0 auto;
+}
+
+.testimonials article h2 {
+    color: #234456;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 64px;
+    font-size: 1.5em;
+}
+
+.testimonials article p {
+    text-align: left;
+    margin-left: 64px;
+    color: #000;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.testimonials .audio {
+    margin: 20px 0 20px 0;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+li a {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+
+header > h1 {
+    font-size: 2.2rem;
+    color: #2C6FB1;
+}
